@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: e9dba972df3eb8b4f896229e293afcbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3126384012751875299
+    second: atulea logo_rainbow_0
+  - first:
+      213: 8205125701529517396
+    second: atulea logo_rainbow_1
+  - first:
+      213: -5206882979306212731
+    second: atulea logo_rainbow_2
+  - first:
+      213: -9165063522900956892
+    second: atulea logo_rainbow_3
+  - first:
+      213: 7280117788016302937
+    second: atulea logo_rainbow_4
+  - first:
+      213: 9128092526097272994
+    second: atulea logo_rainbow_5
+  - first:
+      213: 8491846208713594274
+    second: atulea logo_rainbow_6
+  - first:
+      213: 3855764518473097947
+    second: atulea logo_rainbow_7
+  - first:
+      213: 1011629625446992808
+    second: atulea logo_rainbow_8
+  - first:
+      213: 5002003201893088438
+    second: atulea logo_rainbow_9
+  - first:
+      213: -6728378272709240711
+    second: atulea logo_rainbow_10
+  - first:
+      213: 2368184502542738559
+    second: atulea logo_rainbow_11
+  - first:
+      213: 1222839086918985092
+    second: atulea logo_rainbow_12
+  - first:
+      213: 9216774284350431531
+    second: atulea logo_rainbow_13
+  - first:
+      213: 7590913564923834634
+    second: atulea logo_rainbow_14
+  - first:
+      213: 1856665830473774243
+    second: atulea logo_rainbow_15
+  - first:
+      213: 9008825432649694838
+    second: atulea logo_rainbow_16
+  - first:
+      213: 1770795638512316185
+    second: atulea logo_rainbow_17
+  - first:
+      213: -235363890905471496
+    second: atulea logo_rainbow_18
+  - first:
+      213: 8931034346203758679
+    second: atulea logo_rainbow_19
+  - first:
+      213: 8426463938617150886
+    second: atulea logo_rainbow_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atulea logo_rainbow_0
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 2389
+        width: 281
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec298ff1b5236b20800000000000000
+      internalID: 3126384012751875299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_1
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 2345
+        width: 246
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d38195a567ed170800000000000000
+      internalID: 8205125701529517396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_2
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2292
+        width: 281
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582fc6f748f6db7b0800000000000000
+      internalID: -5206882979306212731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_3
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 2213
+        width: 212
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4292995d8472fc080800000000000000
+      internalID: -9165063522900956892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_4
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 2166
+        width: 255
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bd6b57e8c280560800000000000000
+      internalID: 7280117788016302937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_5
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 2107
+        width: 281
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a01dee2acf7dae70800000000000000
+      internalID: 9128092526097272994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_6
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1711
+        width: 281
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a51f95922919d570800000000000000
+      internalID: 8491846208713594274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_7
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1667
+        width: 246
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2e42d966d628530800000000000000
+      internalID: 3855764518473097947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_8
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 2078
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab8705d8c70a0e00800000000000000
+      internalID: 1011629625446992808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_9
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1614
+        width: 281
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc343e096faa6540800000000000000
+      internalID: 5002003201893088438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_10
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1535
+        width: 212
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97895b40c9fff92a0800000000000000
+      internalID: -6728378272709240711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_11
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 1488
+        width: 255
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7425a4024b7dd020800000000000000
+      internalID: 2368184502542738559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_12
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 1430
+        width: 281
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485e441bba568f010800000000000000
+      internalID: 1222839086918985092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_13
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1025
+        width: 281
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21a9a9016f88ef70800000000000000
+      internalID: 9216774284350431531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_14
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 981
+        width: 246
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01bafd3ba7585960800000000000000
+      internalID: 7590913564923834634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 928
+        width: 281
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4befb5cb334c910800000000000000
+      internalID: 1856665830473774243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_16
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 1377
+        width: 191
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ef69c0007c50d70800000000000000
+      internalID: 9008825432649694838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_17
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 848
+        width: 212
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f665b4041239810800000000000000
+      internalID: 1770795638512316185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_18
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 802
+        width: 255
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f520a9c9c1dbbcf0800000000000000
+      internalID: -235363890905471496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_19
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 743
+        width: 281
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750c9425b6861fb70800000000000000
+      internalID: 8931034346203758679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atulea logo_rainbow_20
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 714
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad0aed8e40d0f470800000000000000
+      internalID: 8426463938617150886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      atulea logo_rainbow_0: 3126384012751875299
+      atulea logo_rainbow_1: 8205125701529517396
+      atulea logo_rainbow_10: -6728378272709240711
+      atulea logo_rainbow_11: 2368184502542738559
+      atulea logo_rainbow_12: 1222839086918985092
+      atulea logo_rainbow_13: 9216774284350431531
+      atulea logo_rainbow_14: 7590913564923834634
+      atulea logo_rainbow_15: 1856665830473774243
+      atulea logo_rainbow_16: 9008825432649694838
+      atulea logo_rainbow_17: 1770795638512316185
+      atulea logo_rainbow_18: -235363890905471496
+      atulea logo_rainbow_19: 8931034346203758679
+      atulea logo_rainbow_2: -5206882979306212731
+      atulea logo_rainbow_20: 8426463938617150886
+      atulea logo_rainbow_3: -9165063522900956892
+      atulea logo_rainbow_4: 7280117788016302937
+      atulea logo_rainbow_5: 9128092526097272994
+      atulea logo_rainbow_6: 8491846208713594274
+      atulea logo_rainbow_7: 3855764518473097947
+      atulea logo_rainbow_8: 1011629625446992808
+      atulea logo_rainbow_9: 5002003201893088438
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
