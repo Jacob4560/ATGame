@@ -10,6 +10,12 @@ public class Shot : Ingredient
         Matcha,
         Hojicha
     }
+
+    public Shot()
+    {
+        shotType = ShotType.Espresso;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public override object getType()
     {
