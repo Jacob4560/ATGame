@@ -10,28 +10,17 @@ public class Shot : Ingredient
         Matcha,
         Hojicha
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    public Shot()
     {
-        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
-        switch (shotType)
-        {
-            case ShotType.Espresso:
-                spriteRenderer.sprite = Resources.Load<Sprite>("Sprites/espresso_shot");
-                break;
-            case ShotType.Matcha:
-                spriteRenderer.sprite = Resources.Load<Sprite>("Sprites/matcha_shot");
-                break;
-            case ShotType.Hojicha:
-                spriteRenderer.sprite = Resources.Load<Sprite>("Sprites/hojicha_shot");
-                break;
-        }
+        shotType = ShotType.Espresso;
     }
 
-    // Update is called once per frame
-    void Update()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public override object getType()
     {
-        
+        ingredientType = IngredientType.Shot;
+        return (object)shotType;
     }
 }
 
