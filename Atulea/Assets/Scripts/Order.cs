@@ -26,7 +26,7 @@ public class Order
     return true;
   }
 
-  Order(int orderNumber, List<Ingredient> ingredients, int price)
+  public Order(int orderNumber, List<Ingredient> ingredients, int price)
   {
     this.orderNumber = orderNumber;
     this.ingredients = ingredients;

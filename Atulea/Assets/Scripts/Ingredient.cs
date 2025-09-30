@@ -18,11 +18,17 @@ public abstract class Ingredient
   }
 
   // This method sets the type for ingredientType and specificType
-  public abstract object getType();
+  public abstract IngredientType getType();
+
+  public void setType(object specificType)
+  {
+    this.specificType = specificType;
+  }
 
   // When an ingredient is created, call getType to set its types
-  public Ingredient()
+  public Ingredient(object specificType = null)
   {
-    specificType = getType();
+    this.ingredientType = getType();
+    this.specificType = specificType;
   }
 }

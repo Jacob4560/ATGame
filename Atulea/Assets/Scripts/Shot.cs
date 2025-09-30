@@ -11,16 +11,12 @@ public class Shot : Ingredient
         Hojicha
     }
 
-    public Shot()
-    {
-        shotType = ShotType.Espresso;
-    }
-
+    public Shot(ShotType shotType = ShotType.Espresso) : base(shotType) { }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public override object getType()
+    public override IngredientType getType()
     {
         ingredientType = IngredientType.Shot;
-        return (object)shotType;
+        return ingredientType;
     }
 }
 

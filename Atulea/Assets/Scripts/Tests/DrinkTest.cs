@@ -24,13 +24,8 @@ public class DrinkTest
     public void DrinkTestSimplePasses()
     {
         // Check that the ingredients were added and are in correct order
-        Drink drink = obj.GetComponent<Drink>();
-        for (int i = 0; i < drink.ingredients.Count; i++)
-        {
-            Debug.Log("Ingredient " + i + ": " + drink.ingredients[i].ingredientType + ", " + drink.ingredients[i].specificType);
-        }
-        Assert.AreEqual(drink.getIngredient(0).ingredientType, Ingredient.IngredientType.Shot);
-        Assert.AreEqual(drink.getIngredient(1).ingredientType, Ingredient.IngredientType.Milk);
+        Assert.AreEqual(Ingredient.IngredientType.Shot, drink.getIngredient(0).ingredientType);
+        Assert.AreEqual(Ingredient.IngredientType.Milk, drink.getIngredient(1).ingredientType);
         // Check if the drink name is set correctly
         Assert.AreEqual(drink.drinkName, "Latte");
     }

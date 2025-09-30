@@ -9,10 +9,10 @@ public class Drink : MonoBehaviour
   {
     ingredients.Add(ingredient);
   }
-  
+
   public Ingredient getIngredient(int index)
   {
-      return ingredients[index];
+    return ingredients[index];
   }
 
 }

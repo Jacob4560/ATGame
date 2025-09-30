@@ -13,12 +13,11 @@ public class Milk : Ingredient
     Banana
   }
 
-   public override object getType()
+  public Milk(MilkType milkType = MilkType.Whole) : base(milkType) { }
+  public override IngredientType getType()
     {
-        ingredientType = IngredientType.Milk;
-        return (object)milkType;
+        return IngredientType.Milk;
     }
-
 }
 
 
