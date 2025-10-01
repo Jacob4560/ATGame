@@ -1,0 +1,9 @@
+{
+  "drinkName": "Iced Matcha Latte",
+  "description": "A refreshing blend of matcha and milk served over ice.",
+  "ingredients": [
+    { "ingredientType": "Ice", "specificType": "Regular" },
+    { "ingredientType": "Shot", "specificType": "Matcha" },
+    { "ingredientType": "Milk", "specificType": "Whole" }
+  ]
+}

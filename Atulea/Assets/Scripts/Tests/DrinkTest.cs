@@ -12,7 +12,7 @@ public class DrinkTest
     {
         // This method is called before each test
         obj = new GameObject("EmptyObject");
-        drink = obj.AddComponent<Drink>();
+        drink = new Drink();
         drink.drinkName = "Latte";
         // Add a shot then add milk
         drink.addIngredient(new Shot());
@@ -21,13 +21,25 @@ public class DrinkTest
 
     // A Test behaves as an ordinary method
     [Test]
-    public void DrinkTestSimplePasses()
+    public void DrinkMaintainsOrder()
     {
         // Check that the ingredients were added and are in correct order
         Assert.AreEqual(Ingredient.IngredientType.Shot, drink.getIngredient(0).ingredientType);
         Assert.AreEqual(Ingredient.IngredientType.Milk, drink.getIngredient(1).ingredientType);
+    }
+
+    [Test]
+    public void DrinkNameMatches()
+    {
         // Check if the drink name is set correctly
         Assert.AreEqual(drink.drinkName, "Latte");
     }
 
+    [Test]
+    public void DrinkMaintainsOrderWithAddition()
+    {
+        // Check that the drink has the correct number of ingredients
+        drink.addIngredient(new Milk());
+        Assert.AreEqual(Ingredient.IngredientType.Milk, drink.getIngredient(2).ingredientType);
+    }
 }

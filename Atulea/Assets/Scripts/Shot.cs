@@ -15,8 +15,7 @@ public class Shot : Ingredient
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public override IngredientType getType()
     {
-        ingredientType = IngredientType.Shot;
-        return ingredientType;
+        return IngredientType.Shot;
     }
 }
 
