@@ -2,8 +2,8 @@ using UnityEngine;
 using System.Collections.Generic;
 public class Drink : MonoBehaviour
 {
-  public List<Ingredient> ingredients = new List<Ingredient>();
-  public string drinkName;
+  [SerializeField] public List<Ingredient> ingredients = new List<Ingredient>();
+  [SerializeField] public string drinkName;
 
   public void addIngredient(Ingredient ingredient)
   {

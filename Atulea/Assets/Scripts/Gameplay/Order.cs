@@ -5,6 +5,7 @@ public class Order
 {
   // List of ingredients for the order, checked against the provided drink
   public List<Ingredient> ingredients = new List<Ingredient>();
+  // TODO: Use Recipe class instead for order ^ can grab randomly from DB
   public int orderNumber;
   public int price;
   public int timeElapsed;
@@ -13,7 +14,7 @@ public class Order
   // Return false if any ingredient does not match
   public bool checkIngredients(Drink drink)
   {
-    for (int i = 0; i < ingredients.Count; i++)
+    for (int i = 0; i < drink.ingredients.Count; i++)
     {
       // Check if the ingredient types match (e.g., Shot, Milk, etc.)
       if (ingredients[i].ingredientType != drink.ingredients[i].ingredientType)

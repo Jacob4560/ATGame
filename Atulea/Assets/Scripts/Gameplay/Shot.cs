@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Shot : Ingredient
 {
-    public ShotType shotType;
+    [SerializeField] private ShotType shotType;
 
     public enum ShotType
     {

@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class Milk : Ingredient
 {
-  public MilkType milkType;
+  [SerializeField] private MilkType milkType;
+  
   public enum MilkType
   {
     Whole,
