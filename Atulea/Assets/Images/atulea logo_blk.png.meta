@@ -159,6 +159,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -659,7 +672,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      atulea logo_blk_0: -3405535971451784594
+      atulea logo_blk_1: 687909714227802876
+      atulea logo_blk_10: 2146290760215764512
+      atulea logo_blk_11: -954882000138706431
+      atulea logo_blk_12: -8213718399193290228
+      atulea logo_blk_13: 4199363224821565198
+      atulea logo_blk_14: -6272175639598871089
+      atulea logo_blk_15: -7861397391078193323
+      atulea logo_blk_16: 2718226939697909780
+      atulea logo_blk_17: -2643144715312150231
+      atulea logo_blk_18: 3361185489094878953
+      atulea logo_blk_19: 38853974140647190
+      atulea logo_blk_2: 7346282073641706983
+      atulea logo_blk_20: -1000430063059576565
+      atulea logo_blk_21: -8192975491797409158
+      atulea logo_blk_3: -1735991948110478388
+      atulea logo_blk_4: 2049796167937254959
+      atulea logo_blk_5: 7673972377024541773
+      atulea logo_blk_6: 8444407209195234061
+      atulea logo_blk_7: 1394695175552889971
+      atulea logo_blk_8: -4137077638394980492
+      atulea logo_blk_9: 6357562527279923782
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
