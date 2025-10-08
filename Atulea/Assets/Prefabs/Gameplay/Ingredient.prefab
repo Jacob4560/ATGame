@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3732907774954605588}
   - component: {fileID: 4037096925066903241}
   - component: {fileID: 5935805437385578476}
-  - component: {fileID: 8684818628296891048}
+  - component: {fileID: 7408886818909384669}
   m_Layer: 0
-  m_Name: Drink
+  m_Name: Ingredient
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 1518111311
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 2183a580edc6c4b6c96e8fad1f9deba0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4cd7f9ec75c480548a51dbca944a82a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -140,7 +140,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 156.25, y: 156.25}
+    oldSize: {x: 0.5, y: 0.5}
     newSize: {x: 0.26666668, y: 0.26666668}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -148,7 +148,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8684818628296891048
+--- !u!114 &7408886818909384669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,8 +157,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8986420560065777850}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39be52bc32923f04db21b5647f2e4b7a, type: 3}
+  m_Script: {fileID: 11500000, guid: e1eb7a552c3af4b79b21f560ea8b1c6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredients: []
-  drinkName: 
+  ingredientInfo: {fileID: 0}
+  spriteRenderer: {fileID: 3732907774954605588}

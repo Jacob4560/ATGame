@@ -2,29 +2,44 @@ using UnityEngine;
 
 public class Draggable : MonoBehaviour
 {
-    private bool isDragging = false;
-    private Vector3 offset; // Offset between mouse click and object's pivot
+    private Collider2D col;
+    private Vector3 startDragPosition;
 
-    void OnMouseDown()
+    private void Start()
     {
-        isDragging = true;
-        // Calculate the offset to prevent snapping to the object's pivot
-        offset = transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        col = GetComponent<Collider2D>();
     }
 
-    void OnMouseUp()
+    private void OnMouseDown()
     {
-        isDragging = false;
+        startDragPosition = transform.position;
+        transform.position = GetMousePositionInWorldSpace();
     }
 
-        void Update()
+    private void OnMouseDrag()
+    {
+        transform.position = GetMousePositionInWorldSpace();
+    }
+
+    private void OnMouseUp()
+    {
+        col.enabled = false;
+        Collider2D hitCollider = Physics2D.OverlapPoint(transform.position);
+        col.enabled = true;
+        if (hitCollider != null && hitCollider.TryGetComponent(out IDropArea dropArea))
         {
-            if (isDragging)
-            {
-                // Get the current mouse position in world coordinates
-                Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                // Apply the offset to maintain the grab position
-                transform.position = new Vector3(mousePosition.x + offset.x, mousePosition.y + offset.y, transform.position.z);
-            }
+            dropArea.OnItemDrop(this);
         }
+        else
+        {
+            transform.position = startDragPosition;
+        }
+    }
+
+    public Vector3 GetMousePositionInWorldSpace()
+    {
+        Vector3 p = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        p.z = 0f;
+        return p;
+    }
 }

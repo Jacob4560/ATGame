@@ -9,14 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f2fca64042b74a028896911bdb20f12, type: 3}
-  m_Name: Latte
+  m_Script: {fileID: 11500000, guid: fc17688f11526194d8b35bbb5074099f, type: 3}
+  m_Name: Whole Milk
   m_EditorClassIdentifier: 
-  Image: {fileID: 0}
-  ID: latte
-  Ingredients:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  Points: 2
-  DrinkName: Latte
+  ingredientType: 1
+  sprite: {fileID: 0}
+  cupType: 0

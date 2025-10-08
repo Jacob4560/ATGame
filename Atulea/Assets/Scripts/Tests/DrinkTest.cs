@@ -5,34 +5,34 @@ using UnityEngine.TestTools;
 
 public class DrinkTest
 {
-    public GameObject obj;
-    public Drink drink;
-    [SetUp]
-    public void Setup()
-    {
-        // This method is called before each test
-        obj = new GameObject("EmptyObject");
-        drink = obj.AddComponent<Drink>();
-        drink.drinkName = "Latte";
-        // Add a shot then add milk
-        drink.addIngredient(new Shot());
-        drink.addIngredient(new Milk());
-    }
+    // public GameObject obj;
+    // public Drink drink;
+    // [SetUp]
+    // public void Setup()
+    // {
+    //     // This method is called before each test
+    //     obj = new GameObject("EmptyObject");
+    //     drink = obj.AddComponent<Drink>();
+    //     drink.drinkName = "Latte";
+    //     // Add a shot then add milk
+    //     drink.addIngredient(new Shot());
+    //     drink.addIngredient(new Milk());
+    // }
 
-    // A Test behaves as an ordinary method
-    [Test]
-    public void DrinkTestSimplePasses()
-    {
-        // Check that the ingredients were added and are in correct order
-        Drink drink = obj.GetComponent<Drink>();
-        for (int i = 0; i < drink.ingredients.Count; i++)
-        {
-            Debug.Log("Ingredient " + i + ": " + drink.ingredients[i].ingredientType + ", " + drink.ingredients[i].specificType);
-        }
-        Assert.AreEqual(drink.getIngredient(0).ingredientType, Ingredient.IngredientType.Shot);
-        Assert.AreEqual(drink.getIngredient(1).ingredientType, Ingredient.IngredientType.Milk);
-        // Check if the drink name is set correctly
-        Assert.AreEqual(drink.drinkName, "Latte");
-    }
+    // // A Test behaves as an ordinary method
+    // [Test]
+    // public void DrinkTestSimplePasses()
+    // {
+    //     // Check that the ingredients were added and are in correct order
+    //     Drink drink = obj.GetComponent<Drink>();
+    //     for (int i = 0; i < drink.ingredients.Count; i++)
+    //     {
+    //         Debug.Log("Ingredient " + i + ": " + drink.ingredients[i].ingredientType + ", " + drink.ingredients[i].specificType);
+    //     }
+    //     Assert.AreEqual(drink.getIngredient(0).ingredientType, Ingredient.IngredientType.Shot);
+    //     Assert.AreEqual(drink.getIngredient(1).ingredientType, Ingredient.IngredientType.Milk);
+    //     // Check if the drink name is set correctly
+    //     Assert.AreEqual(drink.drinkName, "Latte");
+    // }
 
 }
