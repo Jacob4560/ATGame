@@ -12,6 +12,12 @@ public class Shot : Ingredient
         Matcha,
         Hojicha
     }
+
+    public Shot(ShotType shotType = ShotType.Espresso) : base(shotType) { }
+    public override IngredientType getType()
+    {
+        return IngredientType.Shot;
+    }
 }
 
 

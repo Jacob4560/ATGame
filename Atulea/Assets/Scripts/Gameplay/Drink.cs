@@ -13,6 +13,11 @@ public class Drink : MonoBehaviour
     ingredients.Add(ingredient);
   }
 
+  public void addIngredients(Ingredient[] ingredients)
+  {
+    this.ingredients.AddRange(ingredients);
+  }
+
   public Ingredient getIngredient(int index)
   {
     return ingredients[index];

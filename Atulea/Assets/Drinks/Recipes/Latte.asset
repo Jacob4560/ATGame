@@ -15,8 +15,8 @@ MonoBehaviour:
   Image: {fileID: 0}
   ID: latte
   Ingredients:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: dfe9825af7ad544129ead76bb09bf379, type: 2}
+  - {fileID: 11400000, guid: ea464b80f18f6424da7feb891730bd21, type: 2}
+  - {fileID: 11400000, guid: 0525e7977dbd730499433d004d4f1f61, type: 2}
   Points: 2
   DrinkName: Latte

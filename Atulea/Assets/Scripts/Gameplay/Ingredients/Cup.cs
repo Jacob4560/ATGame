@@ -1,7 +1,8 @@
 using UnityEngine;
 
 [System.Serializable]
-[CreateAssetMenu(fileName = "Cup", menuName = "Scriptable Objects/Cup")]public class Cup : Ingredient
+[CreateAssetMenu(fileName = "Cup", menuName = "Scriptable Objects/Cup")]
+public class Cup : Ingredient
 {
   public CupType cupType;
 
@@ -13,6 +14,11 @@ using UnityEngine;
     Iced
   }
 
+  public Cup(CupType cupType = CupType.Medium) : base(cupType) { }
+  public override IngredientType getType()
+  {
+    return IngredientType.Cup;
+  }
 }
 
 

@@ -4,7 +4,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Milk", menuName = "Scriptable Objects/Milk")]public class Milk : Ingredient
 {
   public MilkType milkType;
-
   public enum MilkType
   {
     Whole,
@@ -14,6 +13,12 @@ using UnityEngine;
     Oat,
     Banana
   }
+
+  public Milk(MilkType milkType = MilkType.Whole) : base(milkType) { }
+  public override IngredientType getType()
+    {
+        return IngredientType.Milk;
+    }
 
 }
 
