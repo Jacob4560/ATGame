@@ -35,6 +35,11 @@ public class RecipeDB : ScriptableObject
 		return recipe != null ? recipe.GetCopy() as Recipe : null;
 	}
 
+	public Recipe[] GetRecipeList()
+  {
+		return recipes;
+  }
+
 #if UNITY_EDITOR
 	private void OnValidate()
 	{

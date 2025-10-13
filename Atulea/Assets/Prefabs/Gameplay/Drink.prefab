@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3732907774954605588}
   - component: {fileID: 4037096925066903241}
   - component: {fileID: 5935805437385578476}
-  - component: {fileID: 8684818628296891048}
   m_Layer: 0
   m_Name: Drink
   m_TagString: Untagged
@@ -140,7 +139,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 156.25, y: 156.25}
+    oldSize: {x: 2.0833335, y: 2.0833335}
     newSize: {x: 0.26666668, y: 0.26666668}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -148,17 +147,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8684818628296891048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8986420560065777850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39be52bc32923f04db21b5647f2e4b7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ingredients: []
-  drinkName: 

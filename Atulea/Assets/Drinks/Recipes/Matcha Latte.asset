@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f2fca64042b74a028896911bdb20f12, type: 3}
-  m_Name: Latte
+  m_Name: Matcha Latte
   m_EditorClassIdentifier: 
-  Image: {fileID: 8484764929125767682, guid: 2bff45c9f2e731346adbda17e19ac24c, type: 3}
-  ID: latte
+  Image: {fileID: 488836599827250535, guid: 4d807fe88e1917f4ca0662bc449346ab, type: 3}
+  ID: lattematcha
   Ingredients:
   - {fileID: 11400000, guid: dfe9825af7ad544129ead76bb09bf379, type: 2}
-  - {fileID: 11400000, guid: ea464b80f18f6424da7feb891730bd21, type: 2}
   - {fileID: 11400000, guid: 0525e7977dbd730499433d004d4f1f61, type: 2}
+  - {fileID: 11400000, guid: 8eaae388ee35d254d92d9694b604a451, type: 2}
   Points: 2
-  DrinkName: Latte
+  DrinkName: Matcha Latte

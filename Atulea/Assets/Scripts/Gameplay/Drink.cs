@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 // Drink Controller
 // Track and update ingredients in drink
-public class Drink : MonoBehaviour
+public class Drink
 {
-  [SerializeField] public List<Ingredient> ingredients = new List<Ingredient>();
-  [SerializeField] public string drinkName;
+  public List<Ingredient> ingredients = new List<Ingredient>();
+  public string drinkName;
 
   public void addIngredient(Ingredient ingredient)
   {

@@ -28,7 +28,7 @@ public class Order
     return true;
   }
 
-  Order()
+  public Order(Recipe recipe)
   {
     drink = new Drink();
     drink.addIngredients(recipe.Ingredients);
