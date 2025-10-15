@@ -107,6 +107,16 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 735b59d2f9f1041c1a85fbfa1bd4a1c2, type: 3}
   - {fileID: 21300000, guid: 6c8cbad3be9f94eedb70a95a31866a2e, type: 3}
   - {fileID: 21300000, guid: 89eefd9605d5c4402acc57bf8d874fab, type: 3}
+  - {fileID: -1657666812586792075, guid: 9e0adbc75f97f334da3565d00821deda, type: 3}
+  - {fileID: 6945797543941981543, guid: 3ba19eb99b15acc45b4af69094865a2a, type: 3}
+  - {fileID: -2567719022547725096, guid: 67ba7f0829ac577468f714f48ba446d1, type: 3}
+  - {fileID: 2366137305904325870, guid: e644e55c74ce63f46ba5c6b53d1cef86, type: 3}
+  - {fileID: 8857262195166597232, guid: 2e12ffb06f10b9f4789c1f8ee7b46221, type: 3}
+  - {fileID: -3534524383798872699, guid: 9af793b0c2f0a0947b708efaef6a9b84, type: 3}
+  - {fileID: -8334383182018140909, guid: cb106909bb178e14bb9e5add57ac0a12, type: 3}
+  - {fileID: -4706245035886180794, guid: 63f722bd7f5854d478e6a2830d3893e4, type: 3}
+  - {fileID: 2969107149905003532, guid: 7dca7931f4e90364c864da824955923d, type: 3}
+  - {fileID: 2957249399770154443, guid: b96046559fab99049ac7d2cbd1052949, type: 3}
   availableRecipes: {fileID: 11400000, guid: f0351e9d4b6494df1af0e90e55c4986c, type: 2}
   speechBubble: {fileID: 1715328100808864341}
 --- !u!114 &6125025895955669716
