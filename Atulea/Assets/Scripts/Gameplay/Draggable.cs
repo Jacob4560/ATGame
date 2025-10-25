@@ -30,10 +30,7 @@ public class Draggable : MonoBehaviour
         {
             dropArea.OnItemDrop(this);
         }
-        else
-        {
-            transform.position = startDragPosition;
-        }
+        transform.position = startDragPosition;
     }
 
     public Vector3 GetMousePositionInWorldSpace()

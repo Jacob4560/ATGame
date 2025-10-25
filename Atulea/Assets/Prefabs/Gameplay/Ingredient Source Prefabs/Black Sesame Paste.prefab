@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 6258354009322430149, guid: ba827dbe1847aff4ba3c9042775b7703, type: 3}
     - target: {fileID: 5458714384508120841, guid: 1c9cf0664a5bfb24db8af64eef69371b, type: 3}
       propertyPath: m_Name
-      value: Strawberry Puree Variant
+      value: Black Sesame Paste
       objectReference: {fileID: 0}
     - target: {fileID: 5737937601223864185, guid: 1c9cf0664a5bfb24db8af64eef69371b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56,7 +56,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2748780951218127911, guid: 1c9cf0664a5bfb24db8af64eef69371b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

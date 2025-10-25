@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3732907774954605588}
   - component: {fileID: 4037096925066903241}
   - component: {fileID: 5935805437385578476}
-  - component: {fileID: 1248257523637599124}
   - component: {fileID: 5654131349212649524}
   m_Layer: 0
   m_Name: Ingredient Source
@@ -149,18 +148,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1248257523637599124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8986420560065777850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7a03cf9bd9bca4478c92a3af1f86bb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5654131349212649524
 MonoBehaviour:
   m_ObjectHideFlags: 0
