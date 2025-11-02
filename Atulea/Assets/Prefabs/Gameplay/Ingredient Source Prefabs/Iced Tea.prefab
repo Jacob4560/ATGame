@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1987806163966777842, guid: 764e68444d02c714e8a1a934daf7892e, type: 3}
+    - target: {fileID: 3732907774954605588, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5935805437385578476, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_Size.x
       value: 2.959844
@@ -35,6 +39,18 @@ PrefabInstance:
     - target: {fileID: 5935805437385578476, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 4.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707197457682469066, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707197457682469066, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707197457682469066, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8707197457682469066, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -78,7 +94,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8986420560065777850, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_Name
-      value: Milk Tea
+      value: Iced Tea
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

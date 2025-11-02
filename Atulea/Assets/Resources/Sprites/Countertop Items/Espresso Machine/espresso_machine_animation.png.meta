@@ -1,16 +1,28 @@
 fileFormatVersion: 2
-guid: c846c5896d86b9e47938d27b66fc3ac8
+guid: b38cc7905416c4f069ff09b06f5b1881
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4272190180347340146
-    second: Dispensing Espresso Shot_sprite_0
+      213: 1866436898468692820
+    second: espresso_machine_animation_0
   - first:
-      213: -64530846805613379
-    second: Dispensing Espresso Shot_sprite_1
+      213: 1932113287452503375
+    second: espresso_machine_animation_1
   - first:
-      213: -5990083256840756661
-    second: Dispensing Espresso Shot_sprite_2
+      213: 1281616051094102316
+    second: espresso_machine_animation_2
+  - first:
+      213: 7536048846731437148
+    second: espresso_machine_animation_3
+  - first:
+      213: -2383382428207498193
+    second: espresso_machine_animation_4
+  - first:
+      213: -5039432150783546868
+    second: espresso_machine_animation_5
+  - first:
+      213: -1535050346241057474
+    second: espresso_machine_animation_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dispensing Espresso Shot_sprite_0
+      name: espresso_machine_animation_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 15
-        width: 13
-        height: 12
+        x: 31
+        y: 13
+        width: 138
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8a1c7f7aa126b4c0800000000000000
-      internalID: -4272190180347340146
+      spriteID: 45388e8687ae6e910800000000000000
+      internalID: 1866436898468692820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dispensing Espresso Shot_sprite_1
+      name: espresso_machine_animation_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 15
-        width: 13
-        height: 21
+        x: 231
+        y: 13
+        width: 138
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db4a817698dba1ff0800000000000000
-      internalID: -64530846805613379
+      spriteID: f4d2b645cce30da10800000000000000
+      internalID: 1932113287452503375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dispensing Espresso Shot_sprite_2
+      name: espresso_machine_animation_2
       rect:
         serializedVersion: 2
-        x: 118
-        y: 15
-        width: 13
-        height: 21
+        x: 431
+        y: 13
+        width: 138
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +190,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b42edf4c303fedca0800000000000000
-      internalID: -5990083256840756661
+      spriteID: c2127e7120739c110800000000000000
+      internalID: 1281616051094102316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: espresso_machine_animation_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 13
+        width: 138
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c546b679f7c659860800000000000000
+      internalID: 7536048846731437148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: espresso_machine_animation_4
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 13
+        width: 138
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cb8ca2f468ceed0800000000000000
+      internalID: -2383382428207498193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: espresso_machine_animation_5
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 13
+        width: 138
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a2ddea827501ab0800000000000000
+      internalID: -5039432150783546868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: espresso_machine_animation_6
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 13
+        width: 138
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d16f7d7d762bae0800000000000000
+      internalID: -1535050346241057474
       vertices: []
       indices: 
       edges: []
@@ -198,9 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Dispensing Espresso Shot_sprite_0: -4272190180347340146
-      Dispensing Espresso Shot_sprite_1: -64530846805613379
-      Dispensing Espresso Shot_sprite_2: -5990083256840756661
+      espresso_machine_animation_0: 1866436898468692820
+      espresso_machine_animation_1: 1932113287452503375
+      espresso_machine_animation_2: 1281616051094102316
+      espresso_machine_animation_3: 7536048846731437148
+      espresso_machine_animation_4: -2383382428207498193
+      espresso_machine_animation_5: -5039432150783546868
+      espresso_machine_animation_6: -1535050346241057474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

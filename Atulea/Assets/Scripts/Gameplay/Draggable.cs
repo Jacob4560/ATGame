@@ -1,9 +1,12 @@
+using PlasticPipe.PlasticProtocol.Messages;
 using UnityEngine;
 
 public class Draggable : MonoBehaviour
 {
     private Collider2D col;
     private Vector3 startDragPosition;
+
+    [SerializeField] private bool oneUse = false; // For one use ingredient sources like shots
 
     private void Start()
     {
@@ -29,6 +32,7 @@ public class Draggable : MonoBehaviour
         if (hitCollider != null && hitCollider.TryGetComponent(out IDropArea dropArea))
         {
             dropArea.OnItemDrop(this);
+            if (oneUse) Destroy(gameObject);
         }
         transform.position = startDragPosition;
     }

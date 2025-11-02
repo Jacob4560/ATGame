@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc8a9a5bb91923245a4ce9e859b1d4c2, type: 3}
-  m_Name: Matcha
+  m_Script: {fileID: 11500000, guid: ea99fe69f804f476dac1fb91c391c7ac, type: 3}
+  m_Name: Cup_Empty_Small
   m_EditorClassIdentifier: 
-  ingredientType: 0
-  sprite: {fileID: 0}
-  shotType: 1
+  Image: {fileID: 0}
+  ID: cup_empty_small
+  Ingredients:
+  - {fileID: 11400000, guid: 1d9866fbb01754838824779e47229876, type: 2}
