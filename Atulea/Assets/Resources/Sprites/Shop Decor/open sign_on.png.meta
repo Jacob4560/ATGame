@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 285e91376045b3f44b8ff02c346c76d6
+guid: a8a3a4c24bec94dfabaafa30e6653d39
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8842323553109030138
-    second: Hot Drink_empty cup_0
+      213: 6333877296721454346
+    second: open sign_on_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hot Drink_empty cup_0
+      name: open sign_on_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 3
-        width: 31
-        height: 42
+        x: 327
+        y: 173
+        width: 42
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af432244c6e36ba70800000000000000
-      internalID: 8842323553109030138
+      spriteID: a056ef1d7d376e750800000000000000
+      internalID: 6333877296721454346
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hot Drink_empty cup_0: 8842323553109030138
+      open sign_on_0: 6333877296721454346
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

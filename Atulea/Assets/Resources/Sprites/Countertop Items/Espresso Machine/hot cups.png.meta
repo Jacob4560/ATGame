@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 285e91376045b3f44b8ff02c346c76d6
+guid: 77332bc607e27476fbba9928dd827062
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8842323553109030138
-    second: Hot Drink_empty cup_0
+      213: 9178688933258539131
+    second: hot cups_0
+  - first:
+      213: 1429353444603248419
+    second: hot cups_1
+  - first:
+      213: 7416113430268738238
+    second: hot cups_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hot Drink_empty cup_0
+      name: hot cups_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 3
-        width: 31
-        height: 42
+        x: 0
+        y: 0
+        width: 13
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af432244c6e36ba70800000000000000
-      internalID: 8842323553109030138
+      spriteID: b703faa34f0416f70800000000000000
+      internalID: 9178688933258539131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hot cups_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fbe04826516d310800000000000000
+      internalID: 1429353444603248419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hot cups_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebafb216fd35be660800000000000000
+      internalID: 7416113430268738238
       vertices: []
       indices: 
       edges: []
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hot Drink_empty cup_0: 8842323553109030138
+      hot cups_0: 9178688933258539131
+      hot cups_1: 1429353444603248419
+      hot cups_2: 7416113430268738238
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

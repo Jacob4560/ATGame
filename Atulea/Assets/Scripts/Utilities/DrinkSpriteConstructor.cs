@@ -12,7 +12,7 @@ public static class DrinkSpriteConstructor
         return parentDrink;
     }
 
-    public static void AddSpriteToDrink(GameObject drink, Ingredient ingredient, int order = 1)
+    public static void AddSpriteToDrink(GameObject drink, Ingredient ingredient, int order = 2)
     {
         GameObject spriteObject = new();
         SpriteRenderer renderer = spriteObject.AddComponent<SpriteRenderer>();
