@@ -9,7 +9,8 @@ public class Ingredient : ScriptableObject
   public IngredientType ingredientType;
   public object specificType;
 
-  public Sprite sprite;
+  public Sprite hotSprite;
+  public Sprite coldSprite;
 
   public enum IngredientType
   {

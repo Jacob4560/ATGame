@@ -11,10 +11,10 @@ PrefabInstance:
     - target: {fileID: 340833192110044071, guid: 1c9cf0664a5bfb24db8af64eef69371b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 3749130703679245034, guid: 2ebeee21b0fd4e146b3cd7d8805b7780, type: 3}
+      objectReference: {fileID: 21300000, guid: dca712623e0a741328c50a29bab7e5f7, type: 3}
     - target: {fileID: 5458714384508120841, guid: 1c9cf0664a5bfb24db8af64eef69371b, type: 3}
       propertyPath: m_Name
-      value: Ube Jam
+      value: Cheese Cream
       objectReference: {fileID: 0}
     - target: {fileID: 5737937601223864185, guid: 1c9cf0664a5bfb24db8af64eef69371b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56,10 +56,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7284332377741207647, guid: 1c9cf0664a5bfb24db8af64eef69371b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284332377741207647, guid: 1c9cf0664a5bfb24db8af64eef69371b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8719127954936784775, guid: 1c9cf0664a5bfb24db8af64eef69371b, type: 3}
       propertyPath: ingredient
       value: 
-      objectReference: {fileID: 11400000, guid: dd14c578886c74670888ac7ba7b005cc, type: 2}
+      objectReference: {fileID: 11400000, guid: c4d1072a91efc47fc9b2ca68a41114e3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

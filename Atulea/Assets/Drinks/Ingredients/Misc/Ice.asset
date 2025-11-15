@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf4fe3d1662f0ba478a0bd43a4bf2373, type: 3}
+  m_Script: {fileID: 11500000, guid: beb85b23d081f2c428acea272b8ff4f4, type: 3}
   m_Name: Ice
   m_EditorClassIdentifier: 
   ingredientType: 3
-  sprite: {fileID: 0}
-  iceType: 0
+  hotSprite: {fileID: 0}
+  coldSprite: {fileID: 21300000, guid: b531ad8c5c423f647a4066baf20d8df3, type: 3}

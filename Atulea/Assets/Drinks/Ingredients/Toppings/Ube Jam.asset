@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: beb85b23d081f2c428acea272b8ff4f4, type: 3}
-  m_Name: EmptyColdCup
+  m_Name: Ube Jam
   m_EditorClassIdentifier: 
-  ingredientType: 2
+  ingredientType: 4
   hotSprite: {fileID: 0}
-  coldSprite: {fileID: 21300000, guid: e03f3e45c7d0b2a47a1fbe491512f51c, type: 3}
+  coldSprite: {fileID: 21300000, guid: 4ddb9c2efef0ba94aa9166120cff9b5a, type: 3}

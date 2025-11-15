@@ -23,4 +23,8 @@ public class Drink
     return ingredients[index];
   }
 
+  public bool isColdDrink() // Hack, can refactor this later. We aren't even enforcing cup must be first ingredient yet
+    {
+      return ingredients[0].name.Contains("Cold");
+    }
 }

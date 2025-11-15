@@ -9,8 +9,8 @@ public class WorkZoneController : MonoBehaviour, IDropArea
 
     void Start()
     {
-        workingDrink = new();
         drinkObject = new();
+        workingDrink = new();
         drinkObject.transform.SetParent(transform);
         drinkObject.transform.localPosition = new Vector3(0, 0, 0);
         drinkObject.name = "Working Drink";
@@ -21,8 +21,8 @@ public class WorkZoneController : MonoBehaviour, IDropArea
         {
             IngredientSource source = obj.GetComponent<IngredientSource>();
             workingDrink.addIngredient(source.GetIngredient());
-            Debug.Log("Ingredient: " + source.GetIngredient());
-            DrinkSpriteConstructor.AddSpriteToDrink(drinkObject, source.GetIngredient(), ++ingredientCount);
+            Debug.Log("Dropped ingredient: " + source.GetIngredient());
+            DrinkSpriteConstructor.AddSpriteToDrink(drinkObject, workingDrink, source.GetIngredient(), ++ingredientCount);
         } else
         {
             obj.transform.position = transform.position;

@@ -7,19 +7,31 @@ public static class DrinkSpriteConstructor
         GameObject parentDrink =  new();
         foreach (Ingredient ingredient in drink.ingredients)
         {
-            AddSpriteToDrink(parentDrink, ingredient);
+            AddSpriteToDrink(parentDrink, drink, ingredient);
         }
         return parentDrink;
     }
 
-    public static void AddSpriteToDrink(GameObject drink, Ingredient ingredient, int order = 2)
+    public static void AddSpriteToDrink(GameObject drinkObject, Drink drink, Ingredient ingredient, int order = 2)
     {
         GameObject spriteObject = new();
         SpriteRenderer renderer = spriteObject.AddComponent<SpriteRenderer>();
-        renderer.sprite = ingredient.sprite;
+        renderer.sprite = CheckHotOrColdSprite(drink, ingredient);
         renderer.sortingLayerName = "Gameplay";
         renderer.sortingOrder = order;
-        spriteObject.transform.SetParent(drink.transform);
+        spriteObject.transform.SetParent(drinkObject.transform);
         spriteObject.transform.localPosition = new Vector3(0, 0, 0);
+    }
+
+    private static Sprite CheckHotOrColdSprite(Drink drink, Ingredient ingredient)
+    {
+        if (ingredient.ingredientType == Ingredient.IngredientType.Cup)
+        {
+            return ingredient.name == "EmptyColdCup" ? ingredient.coldSprite : ingredient.hotSprite; // Temp hack ugly, can't really check ingredient source from here easy rn
+        } else if (drink.isColdDrink()) {
+            return ingredient.coldSprite;
+        } else {
+            return ingredient.hotSprite;
+        }
     }
 }
