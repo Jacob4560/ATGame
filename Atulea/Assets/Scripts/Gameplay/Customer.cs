@@ -9,6 +9,9 @@ public class Customer : MonoBehaviour
     public RecipeDB availableRecipes;
     public GameObject speechBubble;
     private TranslateObject translator;
+    public float accuracyMultiplier = 1.0f;
+    public float speedMultiplier = 1.0f;
+    
     void Start()
     {
         // Move to position
