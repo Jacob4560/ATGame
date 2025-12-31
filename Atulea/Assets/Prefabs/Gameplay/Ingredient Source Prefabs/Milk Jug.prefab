@@ -11,10 +11,10 @@ PrefabInstance:
     - target: {fileID: 3732907774954605588, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -8040231548567820866, guid: 1da117d27142947498c85dd819307b0d, type: 3}
+      objectReference: {fileID: -2913886329907318736, guid: 140f149adcc035748a5a925b759f6b9b, type: 3}
     - target: {fileID: 3732907774954605588, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3732907774954605588, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -23,7 +23,7 @@ PrefabInstance:
     - target: {fileID: 5654131349212649524, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: ingredient
       value: 
-      objectReference: {fileID: 11400000, guid: 06ade5288aace724187a6e2c012b47f6, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 5935805437385578476, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_Size.x
       value: 2.959844
@@ -42,11 +42,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5935805437385578476, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.3
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 5935805437385578476, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 4.6
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 8707197457682469066, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_LocalScale.x
@@ -106,7 +106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8986420560065777850, guid: 6c1943625cf5a08438bd4555876ab9c4, type: 3}
       propertyPath: m_Name
-      value: Iced Tea
+      value: Milk Jug
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
